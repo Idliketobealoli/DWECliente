@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        while(true) {
+        /*  This while true is here for testing purposes
+            I didn't want to reload the page over and over again.
+         */
+            var number = parseInt(prompt("Give me a number:"));
+
+            function isPrime(num) {
+                console.info("Calculating if prime.")
+                var n = num - 1;
+                while (n >= 2 && num !== 2) {
+                    var rest = num % n;
+                    if (rest === 0) {
+                        alert(num + " is not a prime number. It's divisible, at least, by " + n);
+                        return;
+                    } else n--;
+                }
+                alert(num + " is prime.")
+            }
+
+            number >= 1
+                ? isPrime(number)
+                : alert("Number must be equal or greater than 1");
+        } // uncomment this for the while true to work.
+    </script>
+</body>
+</html>
