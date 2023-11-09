@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="ejercicio4-padre.js"></script>
+</head>
+<body>
+    <h1>Ventana padre.</h1>
+    <button onclick="openChild()">Abrir ventana hija.</button>
+    <div id="receivedInParent"></div><br/>
+
+    <label for="messageForChild">Escribe algo para la ventana hija: </label>
+    <input type="text" id="messageForChild" placeholder="¿Que quieres enviar?"/>
+    <button onclick="sendMessageToChild()">Enviar</button>
+</body>
+</html>
