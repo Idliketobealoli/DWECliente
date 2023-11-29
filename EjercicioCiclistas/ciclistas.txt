@@ -1,0 +1,21 @@
+Felipe Massa      | 60.6      | 222.2
+Max Verstappen    | 70.7      | 333.3
+Fernando Alonso   | 99        | 444.4
+Kim Jong-Un       | 700       | 555.5
+Donald Trump      | 85.7      | 666.6
+Bill Gates        | 80        | 777.7
+Jesucristo        | 1         | 888.8
+Beelzebub         | 1234567   | 999.9
+Azathoth          | 987654321 | 100
+Baki Hanma        | 169.69    | 1707.69
+Pedro Sanchez     | 666       | 696.9
+Elon Musk         | 70.5      | 1212.12
+Javier Milei      | 77.7      | 9000
+Santiago Abascal  | 90.3      | 9876.54
+Goku              | 150       | 9999.99
+Joseph Joestar    | 120.2     | 123123.123
+Willyrex          | 69.69     | 777.77
+Napoleon          | 50.5      | 10
+Carl Marx         | 0         | 1
+Cid Campeador     | 180       | 123456789
+John F. Kennedy   | 70        | 0

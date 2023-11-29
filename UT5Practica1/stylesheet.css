@@ -1,0 +1,87 @@
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    flex: 1;
+    min-width: 1px;
+}
+
+span {
+    flex: 1;
+    min-width: 1px;
+    text-align: right;
+}
+
+.subgroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.subgroup-right {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: dashed 2px dimgrey;
+}
+
+.monospace-result {
+    font-family: monospace;
+    color: dimgrey;
+    font-weight: bolder;
+}
+
+#container-left {
+    top: 5%;
+    left: 5%;
+    right: 52.5%;
+    bottom: 5%;
+    position: absolute;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 0 5% 5% 5%;
+    background-color: #ededed;
+}
+
+#container-right {
+    top: 5%;
+    left: 52.5%;
+    right: 5%;
+    bottom: 5%;
+    position: absolute;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 0 5% 5% 5%;
+    background-color: #ededed;
+}
+
+input[type="submit"] {
+    position: absolute;
+    flex: 1;
+    width: 76.5%;
+    min-width: 1px;
+    text-align: center;
+    bottom: 0;
+    padding: 1%;
+    margin: 5%;
+    background-color: dodgerblue;
+    color: #dbe9fb;
+    font-weight: bolder;
+    border-color: #dbe9fb;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #dbe9fb;
+    color: dodgerblue;
+    font-weight: bolder;
+    border-color: dodgerblue;
+    border-radius: 10px;
+}

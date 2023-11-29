@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="scriptCiclistas.js"></script>
+</head>
+<body>
+<h1>Visor de ciclistas. Cálculo del VO2Max.</h1>
+<div id="container">
+    <section id="loadFileSection">
+        <form name="form">
+            <label for="dataFile">Fichero ciclistas: </label>
+            <input type="file" name="dataFile" id="dataFile" required><br/><br/>
+        </form>
+    </section>
+    <section id="dataSection">
+        <input type="hidden" name="cyclistPosition" id="cyclistPosition" value="0"/>
+
+        <label for="ciclista">Ciclista: </label>
+        <input type="text" readonly name="ciclista" id="ciclista" value="Ciclista"/><br/><br/>
+
+        <label for="peso">Peso: </label>
+        <input type="text" readonly name="peso" id="peso" value="Peso"/><br/><br/>
+
+        <label for="potencia">Potencia (5 min): </label>
+        <input type="text" readonly name="potencia" id="potencia" value="Potencia"/><br/><br/>
+
+        <label for="vo2max">VO2Max (Volumen Maximo de Oxigeno)
+            <br/>Formula: = (10.8 * potencia / peso) + 7 </label><br/>
+        <input type="text" readonly name="vo2max" id="vo2max" value="VO2MAX"/><br/><br/>
+
+        <button id="buttonPrevious" onclick="previousCyclist()">Anterior</button>
+        <button id="buttonNext" onclick="nextCyclist()">Siguiente</button>
+    </section>
+</div>
+</body>
+</html>

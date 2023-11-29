@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css"/>
+</head>
+<body>
+<div id="container-left">
+    <h3>Inputs</h3>
+    <form name="form">
+        <div class="subgroup">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="password" pattern="^[0-9a-zA-Z]{5,50}$"
+                   title="La contraseña debe tener entre 5 y 50 caracteres. Solo nunmeros y letras." required/>
+        </div>
+        <br/><br/>
+        <div class="subgroup">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@example.com" required/>
+        </div>
+        <br/><br/>
+        <div class="subgroup">
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date" required/>
+        </div>
+        <br/><br/>
+        <div class="subgroup">
+            <label for="range">Range:</label>
+            <small>0 </small><input type="range" name="range" id="range" min="0" max="100" required/><small> 100</small>
+        </div>
+        <br/><br/>
+        <div class="subgroup">
+            <label for="tel">Phone:</label>
+            <input type="tel" name="tel" id="tel" placeholder="123456789" pattern="[0-9]{9}" required/>
+        </div>
+        <br/><br/>
+        <div class="subgroup">
+            <label for="url">Url:</label>
+            <input type="url" name="url" id="url" placeholder="https://github.com" required/>
+        </div>
+    </form>
+    <div class="subgroup">
+        <input type="submit" id="button" value="Mostrar resultados" onclick="showResults()">
+    </div>
+</div>
+<div id="container-right">
+    <h3>Results</h3>
+    <div class="subgroup-right"><label>Password:</label><span id="password-result" class="monospace-result"></span></div>
+    <br/><br/>
+    <div class="subgroup-right"><label>Email:</label><span id="email-result" class="monospace-result"></span></div>
+    <br/><br/>
+    <div class="subgroup-right"><label>Date:</label><span id="date-result" class="monospace-result"></span></div>
+    <br/><br/>
+    <div class="subgroup-right"><label>Range:</label><span id="range-result" class="monospace-result"></span></div>
+    <br/><br/>
+    <div class="subgroup-right"><label>Phone:</label><span id="phone-result" class="monospace-result"></span></div>
+    <br/><br/>
+    <div class="subgroup-right"><label>Url:</label><span id="url-result" class="monospace-result"></span></div>
+</div>
+</body>
+</html>
